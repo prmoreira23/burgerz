@@ -1,21 +1,41 @@
 {
-  "burgers":[
+  "burgers": [
     {
+      "burger": {
+        "burger": {
+          "id": 1,
+          "name": "The Baconator",
+          "category": "Bougie",
+          "imgURL": "https://www.lovelesscafe.com/uploads/recipeimages/BBQBaconBurger-web.jpg"
+        },
+        "id": 1,
+        "category": "Bougie"
+      },
       "id": 1,
-      "name": "The Baconator",
-      "category": "Relatable",
-      "imgURL": "https://www.lovelesscafe.com/uploads/recipeimages/BBQBaconBurger-web.jpg"
+      "category": "Bougie"
     },
     {
       "id": 2,
       "name": "Sal's Burger",
       "category": "Relatable",
-      "imgURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/umami-bomb-burgers-ck.jpg"
+      "imgURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/umami-bomb-burgers-ck.jpg",
+      "burger": {
+        "id": 2,
+        "name": "Sal's Burger",
+        "category": "Bougie",
+        "imgURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/umami-bomb-burgers-ck.jpg",
+        "burger": {
+          "id": 2,
+          "name": "Sal's Burger",
+          "category": "Bougie",
+          "imgURL": "http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/umami-bomb-burgers-ck.jpg"
+        }
+      }
     },
     {
       "id": 3,
       "name": "Sloppy Beef",
-      "category": "Relatable",
+      "category": "Bougie",
       "imgURL": "https://www.budgetbytes.com/wp-content/uploads/2011/06/Sloppy-Joes-Plus-sandwich.jpg"
     },
     {
@@ -58,7 +78,19 @@
       "id": 10,
       "name": "Spinach",
       "category": "Bougie",
-      "imgURL": "https://www.organicfacts.net/wp-content/uploads/spinach.jpg"
+      "imgURL": "https://www.organicfacts.net/wp-content/uploads/spinach.jpg",
+      "burger": {
+        "id": 10,
+        "name": "Spinach",
+        "category": "Bougie",
+        "imgURL": "https://www.organicfacts.net/wp-content/uploads/spinach.jpg",
+        "burger": {
+          "id": 10,
+          "name": "Spinach",
+          "category": "Relatable",
+          "imgURL": "https://www.organicfacts.net/wp-content/uploads/spinach.jpg"
+        }
+      }
     },
     {
       "id": 11,
